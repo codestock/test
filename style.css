@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #FFF;
+  background-color: #09F;
+  padding: 0px;
+}
+
+#wrapper {
+  max-width: 90%;
+  margin: 0% 5% 0% 5%;
+  max-height: 100%
+}
+
+header {
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+  text-align: center;
+  border: 1px #FFF solid;
+  border-radius: 3px;
+  margin-bottom: 1%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #FFF;
+  color: #09F;
+}
+
+nav,
+section {
+  border: 1px #FFF solid;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+footer {
+  width: 100%;
+  padding: 2% 0% 2% 0%;
+  text-align: center;
+  border: 1px #FFF solid;
+  border-radius: 3px;
+  margin-top: 1%;
+  clear: both;
+}
+
+@media only screen and (min-width:480px) {
+  nav {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  nav a {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  nav {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  nav a {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width:960px) {
+  nav, section {
+    height: 450px;
+  }
+  nav {
+    width: calc(98.5%/4);
+    float: left;
+  }
+  section {
+    width: calc((98.5%/4)*3);
+    float: right;
+    margin-right: 0;
+    line-height: 400px;
+  }
+  nav a {
+    padding: 20px;
+  }
+}
